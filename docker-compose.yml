@@ -1,0 +1,10 @@
+services:
+  co-evolution-adapter:
+    build: .
+    image: co-evolution-adapter:latest
+    container_name: co-evolution-adapter
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    restart: always

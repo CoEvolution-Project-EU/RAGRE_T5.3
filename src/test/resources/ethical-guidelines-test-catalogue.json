@@ -1,0 +1,28 @@
+{
+  "catalogueId": "ragre-ethical-guidelines",
+  "catalogueVersion": "test",
+  "entries": [
+    {
+      "questionId": "1",
+      "question": "Do you process any Personal Data?",
+      "answers": ["YES", "NO"],
+      "guidelines": {
+        "YES": "If yes, you must identify and document your specific legal basis under Article 6(1) of the GDPR."
+      },
+      "references": [
+        {
+          "label": "GDPR Article 6",
+          "url": "https://gdpr-info.eu/art-6-gdpr/"
+        }
+      ]
+    },
+    {
+      "questionId": "2",
+      "question": "Where processing is based on consent can it be withdrawn as easily as it was given?",
+      "answers": ["YES", "NO", "N_A"],
+      "guidelines": {
+        "NO": "Ensure that consent meets the GDPR requirements and can be easily withdrawn."
+      }
+    }
+  ]
+}

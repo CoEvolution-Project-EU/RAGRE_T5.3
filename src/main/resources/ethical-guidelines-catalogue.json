@@ -1,0 +1,347 @@
+{
+  "catalogueId": "ragre-ethical-guidelines",
+  "catalogueVersion": "2026-10",
+  "entries": [
+    {
+      "questionId": "AIA-1",
+      "question": "Does the AI system perform or intend to perform any activity prohibited under Article 5 of the AI Act, including the following activities? Manipulates individuals through subliminal, deceptive or exploitative techniques; exploits vulnerabilities related to age, disability or socio-economic circumstances; generates or manipulates sexually or intimate content involving an identifiable person without their explicit consent; generates or manipulates material or performances involving the sexual abuse or sexual exploitation of children; performs social scoring of individuals; predicts the risk of a person committing criminal offence based solely on profiling or personality traits; creates or expands facial recognition databases through untargeted scraping of facial images; carries out emotion recognition in work places or educational institutions; performs biometric categorization based on sensitive characteristics (e.g. race, religious beliefs, sex life); uses real-time remote biometric identification in publicly accessible spaces for law enforcement outside the permitted exceptions.",
+      "answers": ["YES", "NO"],
+      "guidelines": {
+        "YES": "The intended use may constitute a prohibited AI practice. Assess the relevant functionality and intended use against Article 5 of the AI Act, before further development, placing on the market, putting into service or use, taking into account any applicable conditions and exceptions."
+      }
+    },
+    {
+      "questionId": "AIA-2.1",
+      "question": "Is the AI system a product, or a safety component of a product, covered by EU product safety legislation listed in Annex I of the AI Act?",
+      "answers": ["YES", "NO"],
+      "guidelines": {
+        "NO": "NOT HIGH-RISK under Article 6(1)."
+      }
+    },
+    {
+      "questionId": "AIA-2.2",
+      "question": "Is the product, or the system itself where it is a product, required to undergo a third-party conformity assessment under Annex I of the AI Act?",
+      "answers": ["YES", "NO"],
+      "guidelines": {
+        "YES": "HIGH-RISK AI SYSTEM under Article 6(1); certain obligations apply.",
+        "NO": "NOT HIGH-RISK under Article 6(1)."
+      }
+    },
+    {
+      "questionId": "AIA-3",
+      "question": "Is the AI system intended to be used in an area listed in Annex III, such as biometrics, critical infrastructure, education, employment, essential services, law enforcement, migration/border control, or administration of justice/democratic processes?",
+      "answers": ["YES", "NO"],
+      "guidelines": {
+        "YES": "Perform the Article 6 par. 2 Annex III high-risk assessment to examine if the system falls under high risk categorizations and certain obligations apply."
+      }
+    },
+    {
+      "questionId": "AIA-4",
+      "question": "Have risks to health, safety and fundamental rights arising from the AI system's intended purpose and reasonably foreseeable misuse been identified and evaluated?",
+      "answers": ["YES", "NO"],
+      "guidelines": {
+        "NO": "Perform a risk assessment covering the relevant risks and foreseeable misuse."
+      }
+    },
+    {
+      "questionId": "AIA-5",
+      "question": "Are appropriate risk management measures in place to eliminate or reduce the identified risks?",
+      "answers": ["YES", "NO"],
+      "guidelines": {
+        "NO": "Define and apply suitable mitigation measures and assess whether the remaining residual risk is acceptable."
+      }
+    },
+    {
+      "questionId": "AIA-6",
+      "question": "Is a continuous and iterative risk management process maintained throughout the AI system's lifecycle, including regular review and updating?",
+      "answers": ["YES", "NO"],
+      "guidelines": {
+        "NO": "Set up procedures for ongoing risk monitoring, review and updating throughout the AI system's lifecycle."
+      }
+    },
+    {
+      "questionId": "AIA-7",
+      "question": "Has the high-risk AI system been tested to identify appropriate risk management measures and verify that it performs consistently for its intended purpose?",
+      "answers": ["YES", "NO"],
+      "guidelines": {
+        "NO": "Conduct appropriate testing against predefined metrics and thresholds and address any risks or performance issues identified."
+      }
+    },
+    {
+      "questionId": "AIA-8",
+      "question": "Are the training, validation and testing datasets, or, where the high-risk AI system does not involve the training of an AI model, the datasets used to test the AI system, relevant, sufficiently representative and, to the best extent possible, free of errors and complete, having regard to the AI system's intended purpose?",
+      "answers": ["YES", "NO"],
+      "guidelines": {
+        "NO": "Review and improve the relevant datasets to ensure their quality, representativeness and suitability for the AI system's intended purpose."
+      }
+    },
+    {
+      "questionId": "AIA-9",
+      "question": "Are appropriate procedures in place for managing the relevant datasets, including their collection and origin, preparation, underlying assumptions, suitability and any identified data gaps or shortcomings that could prevent compliance with the AI Act?",
+      "answers": ["YES", "NO"],
+      "guidelines": {
+        "NO": "Establish a structured data governance framework and address quality issues, data gaps and shortcomings in view of the AI system's intended purpose."
+      }
+    },
+    {
+      "questionId": "AIA-10",
+      "question": "Have the relevant datasets been examined for possible biases that could affect health or safety, negatively impact fundamental rights or lead to discrimination prohibited under EU law?",
+      "answers": ["YES", "NO"],
+      "guidelines": {
+        "NO": "Assess potential dataset biases and implement measures to detect and mitigate any identified risks."
+      }
+    },
+    {
+      "questionId": "AIA-11",
+      "question": "Does the high-risk AI system enable automatic recording of events (logs), particularly for identifying risks or substantial modifications, facilitating post-market monitoring, and monitoring its operation?",
+      "answers": ["YES", "NO"],
+      "guidelines": {
+        "NO": "Implement appropriate logging capabilities to ensure traceability throughout the AI system's lifecycle."
+      }
+    },
+    {
+      "questionId": "AIA-12",
+      "question": "Is there technical documentation for the AI system containing the information required under Annex IV of the AI Act (e.g. system description and intended purpose, development process, system architecture, data requirements, performance and limitations, risk management, testing and monitoring)?",
+      "answers": ["YES", "NO"],
+      "guidelines": {
+        "NO": "Prepare the technical documentation required under Article 11 and Annex IV of the AI Act before the AI system is placed on the market and keep it updated."
+      }
+    },
+    {
+      "questionId": "AIA-13",
+      "question": "Is the high-risk AI system accompanied by clear instructions describing how the AI system should be used, including its intended purpose, capabilities, limitations, expected performance, known risks and any necessary human oversight measures?",
+      "answers": ["YES", "NO"],
+      "guidelines": {
+        "NO": "Provide clear instructions, in accordance with Article 13(3) of the AI Act."
+      }
+    },
+    {
+      "questionId": "AIA-14",
+      "question": "Does the AI system include appropriate human oversight mechanisms enabling persons to monitor its operation, identify potential risks and intervene when necessary?",
+      "answers": ["YES", "NO"],
+      "guidelines": {
+        "NO": "Implement effective oversight mechanisms that allow meaningful human control and intervention throughout the AI system's operation."
+      }
+    },
+    {
+      "questionId": "AIA-15",
+      "question": "Are technical and organisational measures in place to ensure that the AI system remains robust against errors, faults, inconsistencies and unexpected operating conditions?",
+      "answers": ["YES", "NO"],
+      "guidelines": {
+        "NO": "Implement appropriate robustness measures, such as fail-safe and fallback mechanisms, anomaly detection and operational safeguards, to prevent or minimise harmful or erroneous system behaviour."
+      }
+    },
+    {
+      "questionId": "AIA-15b",
+      "question": "Have appropriate accuracy levels and relevant accuracy metrics been established for the high-risk AI system, taking into account its intended purpose?",
+      "answers": ["YES", "NO"],
+      "guidelines": {
+        "YES": "Verify that the relevant metrics are declared in the accompanying instructions for use.",
+        "NO": "Establish appropriate accuracy levels and relevant accuracy metrics for the system's intended purpose and declare them in the accompanying instructions for use."
+      }
+    },
+    {
+      "questionId": "AIA-16",
+      "question": "Have appropriate cybersecurity measures been implemented and tested to protect the high-risk AI system against attempts to exploit vulnerabilities or alter its use, outputs or performance, including through AI-specific attacks such as data poisoning, model poisoning, adversarial examples/model evasion and confidentiality attacks?",
+      "answers": ["YES", "NO"],
+      "guidelines": {
+        "NO": "Identify relevant vulnerabilities, implement appropriate cybersecurity measures and test their effectiveness against relevant AI-specific attacks."
+      }
+    },
+    {
+      "questionId": "AIA-18",
+      "question": "Are documented policies, procedures and controls in place for managing the development, testing, compliance, monitoring and maintenance of the high-risk AI system?",
+      "answers": ["YES", "NO"],
+      "guidelines": {
+        "NO": "Establish a documented quality management system covering the relevant processes in accordance with Article 17."
+      }
+    },
+    {
+      "questionId": "AIA-22b",
+      "question": "Is there a procedure in place to identify, document, investigate and report serious incidents involving the high-risk AI system?",
+      "answers": ["YES", "NO"],
+      "guidelines": {
+        "NO": "Establish a procedure for the timely reporting, investigation and management of serious incidents in accordance with Article 73 of the AI Act."
+      }
+    },
+    {
+      "questionId": "AIA-19",
+      "question": "Where the organisation is the provider of a high-risk AI system, has an EU declaration of conformity been drawn up in accordance with Article 47 and Annex V?",
+      "answers": ["YES", "NO", "N_A"],
+      "guidelines": {
+        "NO": "Prepare and sign the EU declaration of conformity, including the information required under Annex V and confirming compliance with the applicable AI Act requirements."
+      }
+    },
+    {
+      "questionId": "AIA-20",
+      "question": "Where the AI system is intended to interact directly with natural persons e.g. through a chatbot, virtual assistant or conversational interface, are they clearly informed that they are interacting with an AI system, unless this is obvious from the circumstances and context of use?",
+      "answers": ["YES", "NO", "N_A"],
+      "guidelines": {
+        "NO": "Provide a clear, distinguishable and accessible notice identifying the system as AI, at the latest at the time of the first interaction."
+      }
+    },
+    {
+      "questionId": "AIA-21",
+      "question": "Where the AI system generates synthetic audio, image, video or text content, are its outputs marked in a machine-readable format and detectable as artificially generated or manipulated?",
+      "answers": ["YES", "NO", "N_A"],
+      "guidelines": {
+        "NO": "Implement effective technical solutions to enable AI-generated or manipulated content to be identified as such."
+      }
+    },
+    {
+      "questionId": "AIA-22",
+      "question": "Does the AI system process personal data at any stage of its lifecycle, including during training, validation, testing, deployment or monitoring?",
+      "answers": ["YES", "NO"],
+      "guidelines": {
+        "YES": "Proceed also with the GDPR Questionnaire to assess the applicable data protection requirements."
+      }
+    },
+    {
+      "questionId": "AIA-23",
+      "question": "Does the GPAI model have high-impact capabilities, including where the cumulative amount of computation used for its training exceeds 10^25 FLOPs, or has it been designated by the Commission as presenting systemic risk?",
+      "answers": ["YES", "NO", "N_A"],
+      "guidelines": {
+        "YES": "Apply the obligations for GPAI models under Article 53 and the additional obligations for GPAI models with systemic risk under Article 55 of the AI Act and, where the provider is established outside the EU, the applicable requirements under Article 54.",
+        "NO": "NOT SYSTEMIC-RISK under Article 51(1)."
+      }
+    },
+    {
+      "questionId": "AIA-24",
+      "question": "Does the GPAI model qualify for the open-source exception under Article 53(2), e.g. is it released under a free and open-source licence and are its parameters, including weights, model architecture and usage information, publicly available?",
+      "answers": ["YES", "NO"],
+      "guidelines": {
+        "YES": "Ensure compliance with the remaining obligations under Article 53(1)(c) and (d), including the copyright policy and public training-content summary.",
+        "NO": "Comply with all applicable obligations for providers of GPAI models under Article 53, and, where the provider is established outside the EU, Article 54."
+      }
+    },
+    {
+      "questionId": "GDPR-1",
+      "question": "Does the AI system process personal data (i.e. information relating to an identified or identifiable natural person) at any stage of its lifecycle, including during data collection, training, validation, testing, deployment, or logging?",
+      "answers": ["YES", "NO"],
+      "guidelines": {
+        "YES": "Identify the personal data processed and apply the relevant GDPR requirements throughout the AI system's lifecycle.",
+        "NO": "Verify that the data processed do not identify or permit the identification or re-identification of natural persons before treating the processing as outside the scope of the GDPR."
+      }
+    },
+    {
+      "questionId": "GDPR-2",
+      "question": "Where an AI model is considered anonymous (i.e. identification of individuals whose personal data were used to develop the model are very unlikely), has the risk of identification, re-identification or data extraction been assessed?",
+      "answers": ["YES", "NO", "N_A"],
+      "guidelines": {
+        "NO": "Assess identification, re-identification and data-extraction risks before treating the AI model as anonymous."
+      }
+    },
+    {
+      "questionId": "GDPR-3",
+      "question": "Have specific, explicit and legitimate purposes been defined for the processing of personal data throughout the AI system's lifecycle?",
+      "answers": ["YES", "NO"],
+      "guidelines": {
+        "NO": "Define the purposes of the processing and ensure that any further processing is compatible with those purposes."
+      }
+    },
+    {
+      "questionId": "GDPR-4",
+      "question": "Has an appropriate lawful basis under Article 6 GDPR been identified for each processing activity involving personal data?",
+      "answers": ["YES", "NO"],
+      "guidelines": {
+        "NO": "Identify an appropriate lawful basis for each processing activity before processing personal data."
+      }
+    },
+    {
+      "questionId": "GDPR-5",
+      "question": "Where the processing is based on legitimate interests, has it been assessed whether the processing is necessary and whether those interests are overridden by the rights and freedoms of the individuals concerned?",
+      "answers": ["YES", "NO", "N_A"],
+      "guidelines": {
+        "NO": "Conduct a legitimate interests assessment before relying on Article 6(1)(f)."
+      }
+    },
+    {
+      "questionId": "GDPR-6",
+      "question": "Where processing is based on consent can it be withdrawn as easily as it was given?",
+      "answers": ["YES", "NO", "N_A"],
+      "guidelines": {
+        "NO": "Ensure that consent meets the GDPR requirements and can be easily withdrawn."
+      }
+    },
+    {
+      "questionId": "GDPR-7",
+      "question": "Does the AI system process special categories of personal data, such as data revealing racial or ethnic origin, political opinions, religious or philosophical beliefs, trade union membership, genetic or biometric data, health data, or data concerning a person's sex life or sexual orientation?",
+      "answers": ["YES", "NO"],
+      "guidelines": {
+        "YES": "In addition to the applicable lawful basis, identify a valid condition for processing under Article 9 GDPR."
+      }
+    },
+    {
+      "questionId": "GDPR-8",
+      "question": "Where personal data used for AI development were obtained from third parties or from publicly available sources, including web scraping, has the lawfulness of their collection and further use been assessed?",
+      "answers": ["YES", "NO"],
+      "guidelines": {
+        "NO": "Before using the data, assess whether they were lawfully obtained, whether there is a valid legal basis under Article 6 GDPR for their intended use, and, where applicable, whether the intended use is compatible with the original purpose."
+      }
+    },
+    {
+      "questionId": "GDPR-9",
+      "question": "Is the personal data processed adequate, relevant and limited to what is necessary for the purposes of the processing?",
+      "answers": ["YES", "NO"],
+      "guidelines": {
+        "NO": "Limit the personal data processed to what is necessary for the defined purposes."
+      }
+    },
+    {
+      "questionId": "GDPR-10",
+      "question": "Are measures in place to ensure that personal data processed by the AI system are accurate and, where necessary, kept up to date?",
+      "answers": ["YES", "NO"],
+      "guidelines": {
+        "NO": "Implement such measures to correct or delete inaccurate personal data."
+      }
+    },
+    {
+      "questionId": "GDPR-11",
+      "question": "Have clear retention periods or criteria for determining the retention period been defined for the personal data processed?",
+      "answers": ["YES", "NO"],
+      "guidelines": {
+        "NO": "Define appropriate retention periods or criteria for determining them, and ensure that personal data are deleted or anonymised when they are no longer necessary for the purposes for which they are processed."
+      }
+    },
+    {
+      "questionId": "GDPR-12",
+      "question": "Are appropriate technical and organisational measures in place to protect personal data against unauthorised or unlawful processing, accidental loss, destruction or damage, including risks arising from cybersecurity and AI-specific attacks?",
+      "answers": ["YES", "NO"],
+      "guidelines": {
+        "NO": "Implement appropriate security measures such as pseudonymisation, encryption, access controls, recovery mechanisms, and measures addressing relevant AI-specific attacks."
+      }
+    },
+    {
+      "questionId": "GDPR-13",
+      "question": "Is the processing of personal data likely to result in a high risk to the rights and freedoms of individuals, requiring a Data Protection Impact Assessment (DPIA) under Article 35 GDPR?",
+      "answers": ["YES", "NO"],
+      "guidelines": {
+        "YES": "Carry out and document a DPIA before commencing the processing, in accordance with Article 35 GDPR."
+      }
+    },
+    {
+      "questionId": "GDPR-14",
+      "question": "Are data subjects provided with clear information about how and why their personal data are processed and about their rights in relation to the processing?",
+      "answers": ["YES", "NO"],
+      "guidelines": {
+        "NO": "Provide data subjects with clear information about the processing of their personal data and their applicable rights."
+      }
+    },
+    {
+      "questionId": "GDPR-15",
+      "question": "Are appropriate procedures in place to enable data subjects to exercise their rights in relation to personal data processed by the AI system?",
+      "answers": ["YES", "NO"],
+      "guidelines": {
+        "NO": "Establish and implement procedures to enable data subjects to effectively exercise their applicable GDPR rights."
+      }
+    },
+    {
+      "questionId": "GDPR-16",
+      "question": "Does the AI system make decisions based solely on automated processing, including profiling, that produce legal effects or similarly significantly affect individuals?",
+      "answers": ["YES", "NO"],
+      "guidelines": {
+        "YES": "Verify that the requirements and safeguards of Article 22 GDPR are met, including an applicable exception where required and appropriate safeguards for individuals."
+      }
+    }
+  ]
+}
